@@ -10,23 +10,21 @@ public class Printer {
 
     }
 
-    public Printer(String info){
-        this.max = 1;
-        this.min = 1;
-        this.interval = 0;
-        this.info = info;
-    }
 
-    public Printer(int min, int max, int interval, char ch){
+    public Printer(int min, int max, int interval, String info, char ch){
         this.min = min;
         this.max = max;
         this.interval = interval;
+        this.info = info;
         this.ch = ch;
     }
 
-    public void print(){
-        if(ch){
-            for ()
+    public void printJob(){
+    }
+
+    private void printOneLine(int num_stars){
+        for(int i = 0; i < num_stars; i++){
+
         }
     }
 
