@@ -25,7 +25,9 @@ public class Printer {
     }
 
     public void print(){
-
+        if(ch){
+            for ()
+        }
     }
 
 
