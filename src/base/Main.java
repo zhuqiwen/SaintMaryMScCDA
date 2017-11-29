@@ -14,7 +14,32 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Printer p = new Printer(3, 12, 2, "stars", '*');
+
+		/**
+		 * Question 1
+		 */
+
+        Printer p = new Printer.JobBuilder()
+				.min(3).max(15).interval(3)
+				.info("sharps").character('#')
+				.build();
         System.out.println(p.buildLines());
-    }
+
+
+		for(int i = 0; i < 2; i++){
+			p = new Printer.JobBuilder()
+					.max().min().interval()
+					.info().character()
+					.build();
+			System.out.println(p.buildLines());
+		}
+
+
+		/**
+		 * Question 2
+		 */
+
+
+
+	}
 }
