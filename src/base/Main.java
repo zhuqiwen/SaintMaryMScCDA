@@ -6,12 +6,15 @@
 // The increment of the numbers of asterisks is
 //        specified by the interval value. At the end of each line, it should also print how many stars are printed.
 
-
 package base;
+import qone.Printer;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+        Printer p = new Printer(3, 12, 2, "stars", '*');
+        System.out.println(p.buildLines());
     }
 }
