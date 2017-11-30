@@ -9,6 +9,8 @@ public class QuestionTwoNonObjectDesign {
 		System.out.println("yyohhoo");
 
 
+		double priceCider = 5.5;
+		double priceJuice = 4.5;
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("how many customers? ");
