@@ -26,9 +26,9 @@ public class QuestionTwoNonObjectDesign {
 		{
 			System.out.println("Enter the name of customer #" + (i + 1));
 			customers[i] = sc.next();
-			System.out.println("How many orders of cider did" + customers[i] + "have?");
+			System.out.println("How many orders of cider did " + customers[i] + " have?");
 			numAppleCider[i] = sc.nextInt();
-			System.out.println("How many orders of juice did" + customers[i] + "have?");
+			System.out.println("How many orders of juice did " + customers[i] + " have?");
 			numAppleJuice[i] = sc.nextInt();
 		}
 
